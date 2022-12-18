@@ -1,0 +1,58 @@
+.page-body {
+  width: 1200px;
+  margin: auto;
+  padding: 0;
+}
+
+.cross-section__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.detail__list {
+  list-style: none;
+  background-color: #afafaf;
+  margin: 0;
+  padding: 0;
+  width: 1200px;
+  height: 40px;
+  display: flex;
+}
+
+.detail__item {
+  background-color: #ffd076;
+  border: #000000 1px solid;
+  width: 198px;
+  height: 38px;
+  padding: 0 0 0 2px;
+}
+
+.detail__mark {
+  margin: 0;
+}
+
+.detail__length {
+  min-width: 60px;
+  margin: 0;
+}
+
+.detail__leaving {
+  text-align: right;
+  margin: 2px 0 12px 0;
+}
+
+.datail__number{
+
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 8px;
+    display: none;
+
+}
+
+
+.detail__item:first-child  .datail__number{
+display: block;
+}
+

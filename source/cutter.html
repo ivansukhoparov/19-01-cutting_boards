@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>Wood Cutter</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="page-body">
+    <header></header>
+    <main>
+      <h1>WoodCutter</h1>
+      <h2>ECK 022 048 1</h2>
+
+      <section class="" id="content-place">
+        <!-- put "#cross-section-block" here-->
+
+        <div class="cross-section">
+          <h3 class="cross-section__title">
+            <span class="cross-section__value">Cross_Section</span>
+            &nbsp;-&nbsp;
+            <span class="cross-section__description">Description</span>
+          </h3>
+
+          <ul class="cross-section__list">
+            <li class="cross-section__item">
+              <ul class="detail__list">
+                <li class="detail__item">
+                  <p class="datail__number"> 1</p>
+                  <p class="detail__mark">145</p>
+                  <p class="detail__length">
+                    <span class="detail__length-value">1250</span>mm
+                  </p>
+                </li>
+                <li class="detail__item">
+                  <p class="detail__mark">145</p>
+                  <p class="detail__length">
+                    <span class="detail__length-value">1250</span>mm
+                  </p>
+                </li>
+                <li class="detail__item">
+                  <p class="detail__mark">145</p>
+                  <p class="detail__length">
+                    <span class="detail__length-value">1250</span>mm
+                  </p>
+                </li>
+                <li class="detail__item">
+                  <p class="detail__mark">145</p>
+                  <p class="detail__length">
+                    <span class="detail__length-value">1250</span>mm
+                  </p>
+                </li>
+              </ul>
+              <p class="detail__leaving">
+                leavings: <span class="detail__leaving-value">1000</span> mm
+              </p>
+            </li>
+
+            <li class="cross-section__item">
+              <ul class="detail__list">
+                <li class="detail__item">
+                  <p class="detail__mark">145</p>
+                  <p class="detail__length">
+                    <span class="detail__length-value">1250</span>mm
+                  </p>
+                </li>
+                <li class="detail__item">
+                  <p class="detail__mark">145</p>
+                  <p class="detail__length">
+                    <span class="detail__length-value">1250</span>mm
+                  </p>
+                </li>
+                <li class="detail__item">
+                  <p class="detail__mark">145</p>
+                  <p class="detail__length">
+                    <span class="detail__length-value">1250</span>mm
+                  </p>
+                </li>
+                <li class="detail__item">
+                  <p class="detail__mark">145</p>
+                  <p class="detail__length">
+                    <span class="detail__length-value">1250</span>mm
+                  </p>
+                </li>
+              </ul>
+              <p class="detail__leaving">
+                leavings: <span class="detail__leaving-value">1000</span> mm
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <!-- templates -->
+
+    <!-- Section for each cross section-->
+    <template id="cross-section-block">
+      <div class="cross-section">
+        <h3 class="cross-section__title">
+          <span class="cross-section__value">Cross_Section</span>
+          &nbsp;-&nbsp;
+          <span class="cross-section__description">Description</span>
+        </h3>
+
+        <ul class="cross-section__list">
+          <!-- '.#worck-piece' must be here-->
+        </ul>
+      </div>
+    </template>
+
+    <!-- Section rendering each workpiece-->
+    <template id="work-piece">
+      <li class="cross-section__item">
+        <ul class="detail__list">
+          <!-- '#detail-item' here-->
+
+        </ul>
+        <p class="detail__leaving">
+          leavings: <span class="detail__leaving-value">1000</span> mm
+        </p>
+      </li>
+    </template>
+
+    <!-- Section rendering each detail-->
+    <template id="detail-item">
+
+      <li class="detail__item">
+        <p class="datail__number"> 1</p>
+        <p class="detail__mark">145</p>
+        <p class="detail__length">
+          <span class="detail__length-value">1250</span>mm
+        </p>
+      </li>
+    </template>
+
+     <script src="js/cros-ssection-detail.js"></script>
+  </body>
+</html>
